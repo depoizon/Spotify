@@ -1,0 +1,16 @@
+{
+  "name": "neonwave-local-player",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full audio web player backed by a local Node.js library server.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mime-types": "^2.1.35",
+    "multer": "^2.0.2",
+    "music-metadata": "^10.5.1"
+  }
+}
